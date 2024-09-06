@@ -17,7 +17,7 @@ app.use('/', require('./routes/index'));
 
 
 app.get('/', (req, res) => {
-    res.send('Hello Worlddaaaaa!')
+    res.send('Hello Worldd!')
 })
 
 
