@@ -13,4 +13,13 @@ router.post("/add-plot", async (req, res) => {
   }
 });
 
+router.get("/get-plot", async (req, res) => {
+  try {
+    const result = await Coordinate.find({});
+    return res.status(200).send({ data: result, message: "successfull" });
+  } catch (error) {
+    return res.status(400).send({ message: error.message });
+  }
+});
+
 module.exports = router;
