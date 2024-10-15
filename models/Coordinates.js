@@ -14,6 +14,10 @@ const CoordinatesSchema = new mongoose.Schema({
   longitude: {
     type: Number,
     required: true   // Field is required
+  },
+  blockName: {
+    type: String,
+    required: true   // Field is required
   }
 });
 
