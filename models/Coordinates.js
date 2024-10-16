@@ -4,8 +4,7 @@ const mongoose = require('mongoose');
 const CoordinatesSchema = new mongoose.Schema({
   plotNumber: {
     type: Number,
-    required: true, // Field is required
-    //unique: true     // Ensure plotNumber is unique
+    // required: true
   },
   latitude: {
     type: Number,
