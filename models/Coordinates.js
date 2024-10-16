@@ -5,7 +5,7 @@ const CoordinatesSchema = new mongoose.Schema({
   plotNumber: {
     type: Number,
     required: true,  // Field is required
-    unique: true     // Ensure plotNumber is unique
+    //unique: true     // Ensure plotNumber is unique
   },
   latitude: {
     type: Number,
