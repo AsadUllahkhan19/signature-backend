@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 const CoordinatesSchema = new mongoose.Schema({
   plotNumber: {
     type: String,
-    unique: false
-    // required: true
+    // unique: false
+    required: true
   },
   latitude: {
     type: Number,
